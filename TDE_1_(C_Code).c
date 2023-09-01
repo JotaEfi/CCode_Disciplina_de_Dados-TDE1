@@ -92,7 +92,7 @@ int main(void) {
     printf(("Aluno aprovado.\n"));
   }
 
-  else if (media1 <= 5) {
+  else if (media1 < 5) {
     printf(("Aluno reprovado.\n"));
   }
 
